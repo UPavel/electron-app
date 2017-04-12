@@ -1,0 +1,33 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "babel": "babel src --out-dir dist",
+    "build": "electron-packager . --platform=win32 --arch=x64 --electron-version=1.6.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-runtime": "^6.23.0",
+    "electron-packager": "^8.6.0",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "pretty-hrtime": "^1.0.3",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "electron-prebuilt-compile": "^1.6.2",
+    "request": "^2.81.0"
+  }
+}
